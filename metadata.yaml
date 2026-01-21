@@ -1,0 +1,35 @@
+description: Ultralytics best model trained on /kaggle/working/dataset_yolo/data.yaml
+author: Ultralytics
+date: '2026-01-21T05:57:19.669651'
+version: 8.4.6
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Cover way label
+  1: Earth Ground label
+  2: Neutral label
+  3: Phase Label
+  4: Product warning label
+  5: Rating label
+  6: Schneider logo
+  7: Square D
+  8: Stud Ground label
+  9: Stud ground label
+  10: breaker label
+  11: interia way label
+  12: sum
+  13: warning live label
+  14: way cover label
+  15: wiring diagram label
+args:
+  batch: 1
+  half: false
+  int8: false
+  nms: false
+channels: 3
